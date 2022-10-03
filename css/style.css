@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body { 
+	font-family:AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.headBlack{
+	background-color:black;
+	justify-content: space-evenly;
+	height: 21px;
+	Font-size: 11px;
+	Font-weight: 800;
+	color: rgb(255, 255, 255);
+}
+.headBlack p {
+	margin-top:2px;
+}
+.dFlex{
+	display:flex;
+}
+.head2{
+	justify-content: flex-end;
+	margin-right: 30px;
+	height: 16px;
+}
+.head2 p {
+	margin-right: 17px;
+	font-size:12px;
+	color:#4d4d4d;
+	font-weight:100;
+}
+.AdidasIcon{
+	width:62px;
+	margin-left: 40px;
+}
+.headermiddle {
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-color: black;
+}
+.Icons1{
+   width:26px;
+}
+
+.head3 p{
+	color: black;
+    	margin-left: 98px;
+    	display: flex;
+    	margin-top: 22px;
+	font-size: 12px;
+}
