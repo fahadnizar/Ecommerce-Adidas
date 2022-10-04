@@ -127,10 +127,20 @@ body {
 }
 .shopAd{
 	font-size:22px;
-	font-weight:800px;
-	margin:70px 0px 0px 18px;
+	font-weight:800;
+	margin:70px 12px 0px 19px;
+	justify-content: space-between;
+}
+.viewArrival{
+	font-size:9px;
+	text-decoration-line: underline;
 }
 
+.viewArrival:hover{
+	background-color:black;
+	color:white;
+	text-decoration-line: none;
+}
 .categoryImage img{
 	padding:17px;
 	cursor:pointer;
