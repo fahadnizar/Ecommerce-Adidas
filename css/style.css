@@ -5,7 +5,10 @@
 body { 
 	font-family:AdihausDIN, Helvetica, Arial, sans-serif;
 }
-
+.font2{
+	font-family:AdihausDIN-CnBoldItalic;
+	letter-spacing: .025em;
+}
 .headBlack{
 	background-color:black;
 	justify-content: space-evenly;
@@ -36,10 +39,17 @@ body {
 	margin-left: 40px;
 }
 .headermiddle {
-    align-items: center;
-    background-color: whitesmoke;
-    border-radius: 5px;
-    border-color: black;
+    	align-items: center;
+    	background-color: whitesmoke;
+    	border-color: black;
+    	display: flex;
+    	flex: 0.7;
+	border: solid 1px transparent;
+    	margin: 16px 92px 18px 46px;
+}	
+
+.headermiddle:hover{
+	border: solid 1px;
 }
 .Icons1{
    width:26px;
@@ -51,4 +61,149 @@ body {
     	display: flex;
     	margin-top: 22px;
 	font-size: 12px;
+}
+.headermiddle input{
+    border: none;
+    width: 100%;
+    padding: 2px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+.adBox1{
+	position:relative;
+}
+.offer1{
+	position:absolute;
+	margin: 100px 0px 0px 60px;
+}
+.offer1 h2{
+	font-size:40px;
+}
+.adBox2{
+	position:relative;
+}
+.offer2{
+	position:absolute;
+	margin: 100px 0px 0px 60px;
+}
+.offer2 p{
+	font-size:18px;
+	color:white;
+}
+.fifaWin{	
+    width: 121px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 67px 14px 11px;
+    margin-top: 20px;
+}
+.fifaWin:hover{
+	color:grey;
+}
+.popularTxt{
+    font-size: 30px;
+    font-weight: 600;	
+    justify-content: center;  
+}
+.popularCategories{
+    font-size: 25px;
+    font-weight: 100;	
+    justify-content: center;
+}
+.popularCategories2{
+    font-size: 18px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: solid 1px rgb(217, 217, 217);
+    text-align: center;
+    padding: 11px 1px 3px 1px;
+    margin: 30px 10px 0px 9px;
+}
+.popularCategories2:hover {
+	border: solid 1px black;
+}
+.shopAd{
+	font-size:22px;
+	font-weight:800px;
+	margin:70px 0px 0px 18px;
+}
+
+.categoryImage img{
+	padding:17px;
+	cursor:pointer;
+}
+.categoryImage2 img{
+	cursor:pointer;
+	margin: 0px 17px 2px 17px;
+}
+.shoesImg{
+	width:303px;
+	border: solid 1px transparent;
+}
+.shoesImg:hover{
+	border: solid 1px black;
+}
+
+.stories{
+	background-color: rgb(230, 230, 230);
+    	justify-content: center;
+    	color: rgb(33 33 33);
+    	Line-height: 22px;
+}
+.stories h2{
+	margin-left:15px;
+}
+.storyBox1{
+	width:500px;
+	margin-left:15px;
+	font-size:14px;
+}
+.storyPadding {
+	padding-top:40px;
+}
+
+.joinAdidas{
+	background-color:yellow;
+	justify-content: center;
+	padding: 14px 0px 14px 0px;
+}
+.joinAdidas h4{
+	font-size:25px;	
+}
+.footerlist1{
+	background-color:whitesmoke;
+    	justify-content: center;
+}
+.footerListing{
+	margin: 10px 39px 1px 34px;
+}
+.footerListing h5{
+	font-size:18px
+}
+.footerListing p{
+	font-size: 12px;
+    	padding: 9px 0px 2px 4px;
+}
+.footerListing p:hover{
+	text-decoration-line: underline;
+}
+.footerLast{
+	background-color:rgb(77, 77, 77);
+	color:rgb(217, 217, 217);
+	font-size: 11px;
+}
+.footerLast1{
+	justify-content: center;
+}
+.footerLast p{
+	padding: 11px 19px 0px 19px;
+}
+.footerLast p:hover{
+	text-decoration-line: underline;
+}
+.footerLast2{
+	margin:20px 0px 0px 89px;
 }
