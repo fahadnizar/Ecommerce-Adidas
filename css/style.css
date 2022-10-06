@@ -1,219 +1,246 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
-body { 
-	font-family:AdihausDIN, Helvetica, Arial, sans-serif;
+
+body {
+	font-family: AdihausDIN, Helvetica, Arial, sans-serif;
 }
-.font2{
-	font-family:AdihausDIN-CnBoldItalic;
+.dFlex {
+	display: flex;
+}
+.font2 {
+	font-family: AdihausDIN-CnBoldItalic;
 	letter-spacing: .025em;
 }
-.headBlack{
-	background-color:black;
+
+.headBlack {
+	background-color: black;
 	justify-content: space-evenly;
 	height: 21px;
-	Font-size: 11px;
 	Font-weight: 800;
 	color: rgb(255, 255, 255);
 }
+
 .headBlack p {
-	margin-top:2px;
+	margin-top: 2px;
 }
-.dFlex{
-	display:flex;
+
+
+.creditcard {
+	width: 20px;
 }
-.head2{
+
+.userBag {
+	width: 20px;
+	padding: 0px 20px 0px 4px;
+	margin-top: 18px;
+}
+
+.memberWeek {
+	align-items: center;
+}
+
+.head2 {
 	justify-content: flex-end;
 	margin-right: 30px;
 	height: 16px;
 }
+
 .head2 p {
 	margin-right: 17px;
-	font-size:12px;
-	color:#4d4d4d;
-	font-weight:100;
+	color: #4d4d4d;
+	font-weight: 100;
 }
-.AdidasIcon{
-	width:62px;
+
+.AdidasIcon {
+	width: 62px;
 	margin-left: 40px;
 }
-.headermiddle {
-    	align-items: center;
-    	background-color: whitesmoke;
-    	border-color: black;
-    	display: flex;
-    	flex: 0.7;
-	border: solid 1px transparent;
-    	margin: 16px 92px 18px 46px;
-}	
 
-.headermiddle:hover{
+.headermiddle {
+	align-items: center;
+	background-color: whitesmoke;
+	border-color: black;
+	display: flex;
+	flex: 0.7;
+	border: solid 1px transparent;
+	margin: 16px 92px 18px 46px;
+}
+
+.headermiddle:hover {
 	border: solid 1px;
 }
-.Icons1{
-   width:26px;
+
+.Icons1 {
+	width: 26px;
 }
 
-.head3 p{
+.head3 p,
+b {
 	color: black;
-    	margin-left: 98px;
-    	display: flex;
-    	margin-top: 22px;
-	font-size: 12px;
+	margin-left: 98px;
+	display: flex;
+	margin-top: 22px;
 }
-.headermiddle input{
-    border: none;
-    width: 100%;
-    padding: 2px;
-    outline: none;
-    font-size: medium;
-    background-color: transparent;
+
+.headermiddle input {
+	border: none;
+	width: 100%;
+	padding: 2px;
+	outline: none;
+	background-color: transparent;
 }
-.adBox1{
-	position:relative;
+
+.adBox1 {
+	position: relative;
 }
-.offer1{
-	position:absolute;
+
+.offer1 {
+	position: absolute;
 	margin: 100px 0px 0px 60px;
 }
-.offer1 h2{
-	font-size:40px;
+
+.adBox2 {
+	position: relative;
 }
-.adBox2{
-	position:relative;
-}
-.offer2{
-	position:absolute;
+
+.offer2 {
+	position: absolute;
 	margin: 100px 0px 0px 60px;
 }
-.offer2 p{
-	font-size:18px;
-	color:white;
+
+.offer2 p {
+	color: white;
 }
-.fifaWin{	
-    width: 121px;
-    background-color: white;
-    color: black;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 12px 67px 14px 11px;
-    margin-top: 20px;
+
+.fifaWin {
+	width: 121px;
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	padding: 12px 67px 14px 11px;
+	margin-top: 20px;
 }
-.fifaWin:hover{
-	color:grey;
+
+.fifaWin:hover {
+	color: grey;
 }
-.popularTxt{
-    font-size: 30px;
-    font-weight: 600;	
-    justify-content: center;  
+
+.popularTxt {
+	font-weight: 600;
+	justify-content: center;
 }
-.popularCategories{
-    font-size: 25px;
-    font-weight: 100;	
-    justify-content: center;
+
+.popularCategories {
+	font-weight: 100;
+	justify-content: center;
 }
-.popularCategories2{
-    font-size: 18px;
-    width: 100px;
-    background-color: whitesmoke;
-    border: solid 1px rgb(217, 217, 217);
-    text-align: center;
-    padding: 11px 1px 3px 1px;
-    margin: 30px 10px 0px 9px;
+
+.popularCategories2 {
+	width: 100px;
+	background-color: whitesmoke;
+	border: solid 1px rgb(217, 217, 217);
+	text-align: center;
+	padding: 11px 1px 3px 1px;
+	margin: 30px 10px 0px 9px;
 }
+
 .popularCategories2:hover {
 	border: solid 1px black;
 }
-.shopAd{
-	font-size:22px;
-	font-weight:800;
-	margin:70px 12px 0px 19px;
+
+.shopAd {
+	font-weight: 800;
+	margin: 70px 12px 0px 19px;
 	justify-content: space-between;
 }
-.viewArrival{
-	font-size:9px;
+
+.viewArrival {
 	text-decoration-line: underline;
 }
 
-.viewArrival:hover{
-	background-color:black;
-	color:white;
+.viewArrival:hover {
+	background-color: black;
+	color: white;
 	text-decoration-line: none;
 }
-.categoryImage img{
-	padding:17px;
-	cursor:pointer;
+
+.categoryImage img {
+	padding: 17px;
+	cursor: pointer;
 }
-.categoryImage2 img{
-	cursor:pointer;
+
+.categoryImage2 img {
+	cursor: pointer;
 	margin: 0px 17px 2px 17px;
 }
-.shoesImg{
-	width:303px;
+
+.shoesImg {
+	width: 303px;
 	border: solid 1px transparent;
 }
-.shoesImg:hover{
+
+.shoesImg:hover {
 	border: solid 1px black;
 }
 
-.stories{
+.stories {
 	background-color: rgb(230, 230, 230);
-    	justify-content: center;
-    	color: rgb(33 33 33);
-    	Line-height: 22px;
-}
-.stories h2{
-	margin-left:15px;
-}
-.storyBox1{
-	width:500px;
-	margin-left:15px;
-	font-size:14px;
-}
-.storyPadding {
-	padding-top:40px;
+	justify-content: center;
+	color: rgb(33 33 33);
+	Line-height: 22px;
 }
 
-.joinAdidas{
-	background-color:yellow;
+.stories h2 {
+	margin-left: 15px;
+}
+
+.storyBox1 {
+	width: 500px;
+	margin-left: 15px;
+	padding-top: 40px;
+}
+
+.joinAdidas {
+	
 	justify-content: center;
-	padding: 14px 0px 14px 0px;
+	padding: 34px 0px 33px 0px;
 }
-.joinAdidas h4{
-	font-size:25px;	
+.footerlists {
+	background-color: whitesmoke;
+	justify-content: center;
 }
-.footerlist1{
-	background-color:whitesmoke;
-    	justify-content: center;
-}
-.footerListing{
+
+.footerListing {
 	margin: 10px 39px 1px 34px;
 }
-.footerListing h5{
-	font-size:18px
+
+.footerListing p {
+	padding: 9px 0px 2px 4px;
 }
-.footerListing p{
-	font-size: 12px;
-    	padding: 9px 0px 2px 4px;
-}
-.footerListing p:hover{
+
+.footerListing p:hover {
 	text-decoration-line: underline;
 }
-.footerLast{
-	background-color:rgb(77, 77, 77);
-	color:rgb(217, 217, 217);
-	font-size: 11px;
+
+.footerLast {
+	background-color: rgb(77, 77, 77);
+	color: rgb(217, 217, 217);
 }
-.footerLast1{
+
+.footerLast1 {
 	justify-content: center;
 }
-.footerLast p{
+
+.footerLast p {
 	padding: 11px 19px 0px 19px;
 }
-.footerLast p:hover{
+
+.footerLast p:hover {
 	text-decoration-line: underline;
 }
-.footerLast2{
-	margin:20px 0px 0px 89px;
+
+.footerLast2 {
+	margin: 20px 0px 0px 89px;
 }
