@@ -25,3 +25,13 @@
 .huge{
 	font-size:40px;
 }
+.font2 {
+	font-family: AdihausDIN-CnBoldItalic;
+	letter-spacing: .025em;
+}
+.font3{
+	font-family:AdihausDIN;
+}
+.font4{
+    	font-family: system-ui;
+}

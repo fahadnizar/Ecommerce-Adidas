@@ -2,17 +2,23 @@
 	color:rgb(0,0,0);
 }
 
-.lightDark{
+.semiDark{
 	color:rgb(103,103,103);
 }
 
-.popColor{
+.popColorBg{
 	background-color:rgb(237,231,52)
 }
 
-.footerColor{
+.footerColorBg{
 	background-color:rgb(54,55,56)
 }
-.footerText{
+.footerColor{
 	color:rgb(153,157,155)
+}
+.smokeWhiteBg{
+	background-color:whitesmoke;
+}
+.whiteBg{
+	background-color:white;
 }
