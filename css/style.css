@@ -246,12 +246,12 @@ b {
 .footerLast2 {
 	margin: 20px 0px 0px 89px;
 }
-
+/* wish list starts*/
 .wishList{
 	width:880px;
 	padding-bottom: 90px;
 }
-.wishListItems{
+.headListItems{
 	margin:36px 1px 1px 10px;
 }
 .wishProduct{
@@ -282,4 +282,19 @@ b {
 }
 .price:hover{
 	bottom: 90px;
+}
+/* wish list end*/
+
+/* Your Bag starts*/
+
+.bagBox{
+	width: 1160px;
+}
+.bagItemBox{
+	border: solid 1px black;
+	width: 723px;
+}
+
+.oldPrice{
+	color:red;
 }
