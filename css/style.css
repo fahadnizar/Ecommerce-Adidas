@@ -12,10 +12,7 @@ body {
 .contentCenter{
 	justify-content: center;
 }
-.font2 {
-	font-family: AdihausDIN-CnBoldItalic;
-	letter-spacing: .025em;
-}
+
 .pointer{
 	cursor:pointer;
 }
