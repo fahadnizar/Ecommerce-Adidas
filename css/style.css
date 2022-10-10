@@ -24,6 +24,9 @@ body {
 .pointer{
 	cursor: pointer;
 }
+.alignCenter{
+	align-items: center;
+}
 .underLine{
 	text-decoration-line: underline;
 }
@@ -468,5 +471,38 @@ b {
 	margin-bottom: 18px;
 }
 .listingCategory p {
-	padding: 20px 5px 10px 8px;
+	padding: 20px 5px 10px 9px;
+}
+.rightArrow{
+	width:32px;
+	border: solid 1px black;
+	padding: 8px 0px 0px 11px;
+    	margin: 7px 0px 3px 0px;
+}
+.rightArrowImage{
+	width:20px;	
+}
+
+.filterBox{
+    	width: 137px;
+   	border: solid 1px black;
+    	padding: 3px 1px 1px 14px;
+    	margin: 7px 0px 3px 60px;	
+}
+.filterImage{
+	width:30px;
+}
+.filterImgBox{
+	padding: 3px 1px 1px 1px;
+}
+.sneakerImage{
+	width:40px;
+}
+
+.sneakerImageBox{
+	margin: 4px 0px 0px 5px;
+}
+
+.backIcon{
+	width:17px;
 }
