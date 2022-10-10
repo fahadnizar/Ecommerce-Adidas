@@ -1,24 +1,27 @@
 .darker{
-	color:rgb(0,0,0);
+	color:rgb(0,0,0); /*black */
 }
 
 .semiDark{
-	color:rgb(103,103,103);
+	color:rgb(103,103,103);  /*semi grey */
+}
+
+.darkColorBg{
+	background-color:rgb(54,55,56);  /*dark grey */
+}
+
+.lightColor{
+	color:rgb(153,157,155); /*light grey */
 }
 
 .popColorBg{
-	background-color:rgb(237,231,52)
+	background-color:rgb(237,231,52); /*yellow */
 }
 
-.footerColorBg{
-	background-color:rgb(54,55,56)
-}
-.footerColor{
-	color:rgb(153,157,155)
-}
 .smokeWhiteBg{
 	background-color:whitesmoke;
 }
+
 .whiteBg{
 	background-color:white;
 }

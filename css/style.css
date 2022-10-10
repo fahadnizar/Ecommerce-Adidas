@@ -12,9 +12,20 @@ body {
 .contentCenter{
 	justify-content: center;
 }
-
+.contentEnd{
+	justify-content: end;
+}
+.contentSpaceAround{
+	justify-content: space-around;
+}
+.contentSpaceBetween{
+	justify-content: space-between;
+}
 .pointer{
-	cursor:pointer;
+	cursor: pointer;
+}
+.underLine{
+	text-decoration-line: underline;
 }
 .headBlack {
 	background-color: black;
@@ -256,13 +267,13 @@ b {
 }
 .wishProduct{
 	width: 200px;
-	margin: 0px 9px 2px 9px;
 }
 
-.productBox{
-	width:217px;
-	border: solid 1px transparent;
-	position: relative;
+.productBox {
+    width: 200px;
+    border: solid 1px transparent;
+    position: relative;
+    margin: 1px 5px 1px 5px;
 }
 .productBox:hover {
 	border: solid 1px black;
@@ -286,15 +297,176 @@ b {
 /* wish list end*/
 
 /* Your Bag starts*/
-
+.cartListItems{
+	margin: 15px 0px 0px 10px;
+}
 .bagBox{
 	width: 1160px;
+}
+
+.listTotal{
+	padding: 19px 0px 0px 0px
 }
 .bagItemBox{
 	border: solid 1px black;
 	width: 723px;
+	margin-top: 17px;
+}
+.cartProductImage{
+	width: 238px;
+}
+.oldPrice{
+	padding: 1px 0px 1px 36px;
+}
+.newPrice{
+	color:red;
+	padding: 0px 12px 0px 1px;
 }
 
-.oldPrice{
-	color:red;
+.bagProductDescription{
+	width:497px;
+	margin: 15px 8px 0px 35px;
+}
+.productCartTitle{
+	padding: 1px 74px 1px 1px;
+}
+.bagLove{
+	
+}
+.sizeSelectBag{
+	border: solid 1px black;
+    	width: 100px;
+	margin: 46px 1px 1px 1px;
+    	padding: 16px 0px 16px 1px;
+}
+/* Drop down arrow */
+.arrow {
+  	border: solid black;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+}
+.down {
+  	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+}
+/* Drop down arrow Ended */
+.blackBoxImage{
+	padding:1px 1px 1px 1px;
+	width: 627px;
+}
+.checkOutBox{
+	width: 363px;
+	border: solid 1px whitesmoke;
+    	margin: 25px 0px 1px 55px;
+}
+
+.checkoutOrder{
+	padding: 12px 0px 1px 11px;
+}
+.checkoutDetail{
+	padding: 14px 0px 0px 14px;
+} 	
+.checkoutPrice{
+	padding-left:100px;
+}
+.checkoutItem{
+	padding-right: 100px;
+}
+.checkoutDelivery{
+	padding: 14px 100px 0px 21px;
+} 	
+.checkoutFree{
+	padding: 14px 0px 0px 100px;
+} 	
+
+.checkoutOffAplied{
+	padding: 14px 64px 0px 14px;
+} 	
+
+.checkoutOff{
+	padding: 14px 0px 0px 55px;
+} 	
+
+.checkoutTotal{
+	padding: 14px 100px 0px 20px;
+} 	
+.checkoutFinalPrice{
+	padding: 14px 0px 0px 100px;
+} 	
+.checkoutTax{
+    	padding: 6px 0px 0px 35px;
+}
+
+.topPicksTxt{
+	padding: 40px 0px 0px 100px;
+}
+
+.promoBox{
+    	width: 356px;
+    	border: solid 1px black;
+    	padding: 11px 0px 11px 9px;
+    	margin: 13px 97px 1px 0px;
+	align-items: center;
+}
+
+.promoAddIcon{
+	width:20px;
+	padding-right: 14px;
+}
+
+.topPicksBox{
+ 	width: 174px;
+    	border: solid 1px transparent;
+    	position: relative;
+    	margin: 1px 5px 1px 5px;
+}
+.topPicksBox:hover {
+	border: solid 1px black;
+}
+.pickProduct{
+	width: 174px;
+}
+.topPicks{
+	margin: 22px 0px 90px 95px;
+}
+.cartBottomBox{
+	margin-bottom:99px;
+}
+.cartPageBottom{
+	margin: 5px 0px 25px 99px;
+   	width: fit-content;
+} 
+.cartPageBottom:hover{
+	background-color: black;
+	color: white;
+}
+.listingPageBox{
+	/*width: 880px; */
+}
+.listingProductBox {
+	width: 301px;
+    	border: solid 1px transparent;
+    	position: relative;
+    	margin: 1px 5px 1px 5px;
+}
+.listingProductBox:hover {
+	border: solid 1px black;
+}
+
+.listPagePrice {
+    	margin-left: 7px;
+    	position: absolute;
+    	bottom: 60px;
+    	width: auto;
+}
+.listPagePrice:hover{
+	bottom: 70px;
+}
+.listingCategory{
+	border-bottom: solid 1px whitesmoke;
+	margin-bottom: 18px;
+}
+.listingCategory p {
+	padding: 20px 5px 10px 8px;
 }
