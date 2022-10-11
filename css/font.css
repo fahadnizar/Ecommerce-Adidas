@@ -10,9 +10,13 @@
 .small{
 	font-size:14px;
 }
+.semiMedium{
+	font-size:15px;
+}
 .medium{
 	font-size:16px;
 }
+
 .large{
 	font-size:18px;
 }
@@ -36,5 +40,8 @@
     	font-family: system-ui;
 }
 .fontLighter{
+	font-weight: lighter;
+}
+.fontLW{
 	font-weight: lighter;
 }

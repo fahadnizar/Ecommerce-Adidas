@@ -21,6 +21,12 @@ body {
 .contentSpaceBetween{
 	justify-content: space-between;
 }
+.contentSpaceEvenly{
+	justify-content: space-evenly;
+}
+.contentEnd{
+	justify-content: flex-end;
+}
 .pointer{
 	cursor: pointer;
 }
@@ -444,9 +450,7 @@ b {
 	background-color: black;
 	color: white;
 }
-.listingPageBox{
-	/*width: 880px; */
-}
+
 .listingProductBox {
 	width: 301px;
     	border: solid 1px transparent;
@@ -496,7 +500,7 @@ b {
 	padding: 3px 1px 1px 1px;
 }
 .sneakerImage{
-	width:40px;
+	width: 40px;
 }
 
 .sneakerImageBox{
@@ -504,5 +508,114 @@ b {
 }
 
 .backIcon{
-	width:17px;
+	width: 17px;
+}
+
+.pageCategories{
+	margin: 45px 0px 16px 7px;
+}
+.categoryMenSneaker{
+	    padding: 0px 9px 0px 9px;	
+}
+.categoryMenSneaker:hover{
+	background-color:black;
+	color:white;
+	text-decoration-line: none;
+}
+
+.sneakerTxtCategory{
+	padding-left:7px;
+}
+
+.menSneakerTitle{
+	padding: 12px 0px 8px 13px;
+}
+
+.bottomNavigation{
+	margin: 61px 0px 61px 0px;
+}
+.pageMoverBottom{
+	align-items:center;
+	margin-left: 99px;
+}
+
+.pageMoverBox {
+    	border: solid 1px rgb(153,157,155);
+    	width: 60px;
+    	margin: 0px 6px 0px 9px;
+    	padding: 16px 0px 16px 0px;
+}
+.pageMoverSpace{
+	width:40px;
+}
+
+.jsEndFlex1{
+	flex: 1;
+    	justify-content: flex-end;
+}
+.bottomBoxNext{
+    	margin: 19px 59px 1px 1px;
+}
+.nextPadding{
+	padding-top:9px;
+}
+.titleBottomSneaker{
+	margin: 1px 0px 5px 80px;
+}
+.sneakerExplanation{
+	width:974px;
+	margin: 1px 0px 5px 80px;
+	line-height: 24px;
+}
+.sneakerExplanationTitles{
+	width:974px;
+	margin: 1px 0px 5px 80px;
+	line-height: 40px;
+}
+
+.bottomParagraph{
+	margin:0px 0px 90px 37px;
+}
+.bottomClothing{
+	margin: 0px 0px 19px 90px;
+}
+.clothingCategory{
+	line-height: 30px;
+}
+.bottomClothingBox{
+	margin-bottom:80px;
+}
+
+/*Login page*/
+.loginBox{
+	width:880px;
+}
+.inputBox input{
+	border: none;
+	width: 100%;
+	padding: 2px;
+	outline: none;
+	background-color: transparent;
+}
+.inputBox:hover {
+	border: solid 1px;
+}
+.inputBox {
+	margin-top:17px;
+	padding:15px;
+	align-items: center;
+	border: solid 1px black;
+}
+.loginInputBox{
+	width:430px;
+}
+
+.smallIcon{
+	width:15px;
+}
+.tickPadding{
+	padding:5px;
+}
+.joinClub{
+	width:55px;
 }

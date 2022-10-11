@@ -5,7 +5,9 @@
 .semiDark{
 	color:rgb(103,103,103);  /*semi grey */
 }
-
+.dark{
+    	color: rgb(46 44 44);/*Thick grey*/
+}
 .darkColorBg{
 	background-color:rgb(54,55,56);  /*dark grey */
 }
