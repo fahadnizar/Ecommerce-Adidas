@@ -634,3 +634,26 @@ b {
 .facebookBox{
 	width:200px;
 }
+
+.right {
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+}
+.borderBottom{
+	border-bottom: 1px solid darkgrey;
+}
+.paddingTopBot{
+	padding: 15px 0px 15px 0px;
+}
+
+.supportTopicBox{
+	width: 285px;
+}
+.helpBox {
+    	width: 722px;
+    	padding: 63px 0px 37px 43px;
+        letter-spacing: 1px;
+}
+.topMarginHigh{
+	margin-top: 90px;
+}

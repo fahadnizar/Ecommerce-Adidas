@@ -15,7 +15,9 @@
 .lightColor{
 	color:rgb(153,157,155); /*light grey */
 }
-
+.lightColorBg{
+	background-color:rgb(153,157,155); /*light grey bg*/
+}
 .popColorBg{
 	background-color:rgb(237,231,52); /*yellow */
 }
