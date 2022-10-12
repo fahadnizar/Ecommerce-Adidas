@@ -36,6 +36,10 @@ body {
 .underLine{
 	text-decoration-line: underline;
 }
+
+.blackBorder{
+	border: solid 1px black;
+}
 .headBlack {
 	background-color: black;
 	justify-content: space-evenly;
@@ -514,10 +518,8 @@ b {
 .pageCategories{
 	margin: 45px 0px 16px 7px;
 }
-.categoryMenSneaker{
-	    padding: 0px 9px 0px 9px;	
-}
-.categoryMenSneaker:hover{
+
+.blackBgHover:hover{
 	background-color:black;
 	color:white;
 	text-decoration-line: none;
@@ -588,7 +590,7 @@ b {
 
 /*Login page*/
 .loginBox{
-	width:880px;
+	width:1064px;
 }
 .inputBox input{
 	border: none;
@@ -607,7 +609,8 @@ b {
 	border: solid 1px black;
 }
 .loginInputBox{
-	width:430px;
+	width: 722px;
+    	padding: 37px 26px 37px 37px;
 }
 
 .smallIcon{
@@ -618,4 +621,16 @@ b {
 }
 .joinClub{
 	width:55px;
+}
+
+.topMargin{
+	margin-top:15px;
+}
+
+.lineHeight{
+	line-height: 24px;
+}
+
+.facebookBox{
+	width:200px;
 }

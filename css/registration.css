@@ -1,0 +1,5 @@
+body {
+	overflow-y:hidden;
+	background-image:url(../Assets/backGroundReg.png);
+	background-repeat: round;
+}
