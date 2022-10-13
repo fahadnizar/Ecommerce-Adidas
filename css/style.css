@@ -40,6 +40,33 @@ body {
 .blackBorder{
 	border: solid 1px black;
 }
+
+
+.topMarginHigh{
+	margin-top: 90px;
+}
+
+.topMarginMedium{
+	margin-top: 35px;
+}
+
+.topMargin{
+	margin-top:15px;
+}
+
+.lineHeight{
+	line-height: 24px;
+}
+.spacingLetter{
+	letter-spacing: 1px;
+}
+
+.borderBottom{
+	border-bottom: 1px solid darkgrey;
+}
+.paddingTopBot{
+	padding: 15px 0px 15px 0px;
+}
 .headBlack {
 	background-color: black;
 	justify-content: space-evenly;
@@ -623,13 +650,7 @@ b {
 	width:55px;
 }
 
-.topMargin{
-	margin-top:15px;
-}
 
-.lineHeight{
-	line-height: 24px;
-}
 
 .facebookBox{
 	width:200px;
@@ -639,21 +660,49 @@ b {
   	transform: rotate(-45deg);
   	-webkit-transform: rotate(-45deg);
 }
-.borderBottom{
-	border-bottom: 1px solid darkgrey;
-}
-.paddingTopBot{
-	padding: 15px 0px 15px 0px;
-}
+
 
 .supportTopicBox{
 	width: 285px;
 }
 .helpBox {
-    	width: 722px;
+    	width: 800px;
     	padding: 63px 0px 37px 43px;
         letter-spacing: 1px;
 }
-.topMarginHigh{
-	margin-top: 90px;
+
+.supportTopics{
+        width: 915px;
+}
+
+.topicQuestion{
+    	width: 629px;
+        margin-left: 30px;
+	padding-left: 30px;
+}
+
+.supportTitle {
+    	width: 466px;
+    	display: flex;
+    	justify-content: end;
+}
+
+.helpBottom{
+    	width: 1112px;
+}
+
+.helpBottomSesion{
+    	width: 1000px;
+}
+
+.descriptionBox {
+    border-left-style: solid;
+    margin: 70px 30px 40px 42px;
+    padding: 35px 0px 35px 32px;
+    border-top: ridge;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
 }
