@@ -54,8 +54,23 @@ body {
 	margin-top:15px;
 }
 
+.leftMarginMedium{
+	margin-left: 35px;
+}
+
+.leftMarginHigh{
+	margin-left: 90px;
+}
+
+.rightMarginMedium{
+	margin-right: 35px;
+}
 .lineHeight{
 	line-height: 24px;
+}
+
+.lineHeightSmall{
+	line-height: 20px;
 }
 .spacingLetter{
 	letter-spacing: 1px;
@@ -63,6 +78,11 @@ body {
 
 .borderBottom{
 	border-bottom: 1px solid darkgrey;
+}
+
+.borderTopBottom{
+    	border-top-style: ridge;
+    	border-bottom-style: ridge;
 }
 .paddingTopBot{
 	padding: 15px 0px 15px 0px;
@@ -696,13 +716,18 @@ b {
 }
 
 .descriptionBox {
-    border-left-style: solid;
-    margin: 70px 30px 40px 42px;
-    padding: 35px 0px 35px 32px;
-    border-top: ridge;
+    	border-left-style: solid;
+   	margin: 70px 30px 40px 42px;
+    	padding: 35px 0px 35px 32px;
+    	border-top: ridge;
 }
 
 .up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
+  	transform: rotate(-135deg);
+  	-webkit-transform: rotate(-135deg);
+}
+
+.detailBox{
+   	margin: 50px 30px 40px 42px;
+    	padding: 35px 0px 35px 32px;
 }
