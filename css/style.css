@@ -6,6 +6,16 @@
 body {
 	font-family: AdihausDIN, Helvetica, Arial, sans-serif;
 }
+.blackBgHover:hover{
+	background-color: black;
+	color:white;
+	text-decoration-line: none;
+}
+
+.smokeHover:hover{
+	color:rgb(103,103,103);
+	text-decoration-line: none;
+}
 .dFlex {
 	display: flex;
 }
@@ -41,7 +51,13 @@ body {
 	border: solid 1px black;
 }
 
+.smokeBorder{
+	border: solid 1px rgb(230, 230, 230);
+}
 
+.borderRight{
+    border-right-style: inset;
+}
 .topMarginHigh{
 	margin-top: 90px;
 }
@@ -64,6 +80,9 @@ body {
 
 .rightMarginMedium{
 	margin-right: 35px;
+}
+.mediumPadding{
+	padding: 10px 30px 10px 30px;
 }
 .lineHeight{
 	line-height: 24px;
@@ -113,6 +132,10 @@ body {
 	align-items: center;
 }
 
+.alignItemCenter{
+	align-items: center;
+}
+
 .head2 {
 	justify-content: flex-end;
 	margin-right: 30px;
@@ -147,6 +170,11 @@ body {
 .Icons1 {
 	width: 26px;
 }
+
+.Icons2 {
+	width: 26px;
+}
+
 .head3{
 	border-bottom: 1px solid whitesmoke ;
 }
@@ -566,12 +594,6 @@ b {
 	margin: 45px 0px 16px 7px;
 }
 
-.blackBgHover:hover{
-	background-color:black;
-	color:white;
-	text-decoration-line: none;
-}
-
 .sneakerTxtCategory{
 	padding-left:7px;
 }
@@ -730,4 +752,23 @@ b {
 .detailBox{
    	margin: 50px 30px 40px 42px;
     	padding: 35px 0px 35px 32px;
+}
+
+/*Side bar*/
+.sideBar{
+    	position: sticky;
+    	height: 790px;
+    	top: 0;
+    	z-index: 1;
+	padding: 20px;
+}
+
+.alternativeBox{
+    	padding: 12px;
+	align-items: center;
+	width: 346px;
+}
+
+.checkoutHeader{
+	width:1155px;
 }
