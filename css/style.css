@@ -154,15 +154,13 @@ body {
 }
 
 .headermiddle {
-	align-items: center;
-	background-color: whitesmoke;
-	border-color: black;
-	display: flex;
-	flex: 0.7;
-	border: solid 1px transparent;
-	margin: 16px 92px 18px 46px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-color: black;
+    display: flex;
+    border: solid 1px transparent;
+    margin: 25px 21px 11px 46px;
 }
-
 .headermiddle:hover {
 	border: solid 1px;
 }
@@ -180,12 +178,16 @@ body {
 }
 .head3 p,
 b {
-	color: black;
-	margin-left: 98px;
+	margin: 0px 28px 0px 28px;
 	display: flex;
 	margin-top: 22px;
 }
-
+.width1{
+	width:440px;
+}
+.width2{
+	width:690px;
+}
 .headermiddle input {
 	border: none;
 	width: 100%;
