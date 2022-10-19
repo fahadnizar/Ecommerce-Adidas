@@ -107,6 +107,7 @@ body {
 	padding: 15px 0px 15px 0px;
 }
 .headBlack {
+        padding: 5px 0px 5px 0px;
 	background-color: black;
 	justify-content: space-evenly;
 	height: 21px;
@@ -138,7 +139,7 @@ body {
 
 .head2 {
 	justify-content: flex-end;
-	margin-right: 30px;
+	margin: 9px 47px 0px 0px;
 	height: 16px;
 }
 
@@ -202,7 +203,8 @@ b {
 
 .offer1 {
 	position: absolute;
-	margin: 100px 0px 0px 60px;
+    	margin: 100px 0px 0px 60px;
+    	top: 50px;
 }
 
 .adBox2 {
@@ -280,6 +282,9 @@ b {
 	margin: 0px 17px 2px 17px;
 }
 
+.imgWidth{
+	width:300px;
+}
 .shoesImg {
 	width: 303px;
 	border: solid 1px transparent;
@@ -298,6 +303,9 @@ b {
 
 .stories h2 {
 	margin-left: 15px;
+}
+.storyMargin{
+	    margin: 70px 0px 70px 0px;
 }
 
 .storyBox1 {
