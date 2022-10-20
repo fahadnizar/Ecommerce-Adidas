@@ -70,6 +70,10 @@ body {
 	margin-top:15px;
 }
 
+.bottomMargin{
+	margin-bottom:15px;
+}
+
 .leftMarginMedium{
 	margin-left: 35px;
 }
@@ -784,4 +788,28 @@ b {
 
 .checkoutHeader{
 	width:1155px;
+}
+
+.inputWidth{
+    width: 545px;
+}
+
+.addressBoxMargin{
+    margin-right: 28px;
+}
+
+.addresBox1width{
+	width: 577px;
+}
+
+.addresBox2width{
+	width: 577px;
+}
+
+.addressBox{
+	width:300px;
+}
+
+.boxWidth{
+	width:300px;
 }
