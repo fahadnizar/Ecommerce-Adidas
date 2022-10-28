@@ -322,9 +322,11 @@ b {
 }
 
 .joinAdidas {
-	
-	justify-content: center;
+
 	padding: 34px 0px 33px 0px;
+}
+.freeWidth{
+	width: 244px;
 }
 .footerlists {
 	justify-content: center;
